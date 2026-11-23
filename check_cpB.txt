@@ -1,0 +1,5 @@
+File: export_final.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Ghi chú: Lúc 16:05 mình không export part_B.zip. File này chạy lệnh Checkpoint B (--only D01,D02 --expect 2) trên export_final.zip sau buổi học, nên nó cho thấy D01, D02 ở trạng thái cuối, không phải lúc checkpoint.
