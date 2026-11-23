@@ -1,10 +1,10 @@
 frame_id,source,phenomenon,affected_field,effect_on_label
-S01_ir,IR_sim,"Cốc ở ghế giữa mất màu, viền lẫn vào nền ghế; box trên IR nhỏ hơn RGB (45x43 so với 60x51 px)",object bbox; type,vẽ box sát phần thấy rõ; giữ type=cup nhờ đối chiếu ảnh RGB cùng cảnh
-S06_ir,IR_sim,Túi ở ghế giữa và ghế trẻ em rear_left có độ sáng gần giống ghế xe nên khó tách viền; box túi trên IR cao hơn RGB (236 so với 189 px),object bbox; child_seat bbox,"kiểm lại viền trên ảnh RGB rồi chỉnh box IR cho khớp; giữ type=bag, occupied=no"
-S02_ir,IR_sim,"Ảnh một kênh làm mất màu áo và dây đai, nhưng vẫn thấy không có dây vắt qua người",seatbelt,giữ not_worn giống RGB; SVIRO không ai thắt dây nên không ghi worn_*
-D01,real_IR,"Vùng mắt phải tối hoặc bị che, không xác định được mắt và có đeo kính hay không",eye_right; glasses; face13,"eye_right=unknown, glasses=unknown; 4 điểm mắt phải bật cờ occluded, không đoán vị trí"
+S01_ir,IR_sim,"Cốc ở ghế giữa mất màu, viền lẫn vào nền ghế; box trên IR nhỏ hơn RGB (45x43 so với 60x51 px)",object bbox; type,"vẽ box sát phần thấy rõ trên ảnh IR; type=cup nhận theo hình dạng (4.4-4), không suy từ ảnh RGB (4.4-1)"
+S06_ir,IR_sim,Túi ở ghế giữa và ghế trẻ em rear_left có độ sáng gần giống ghế xe nên khó tách viền; box túi trên IR cao hơn RGB (236 so với 189 px),object bbox; child_seat bbox,"vẽ box theo viền thấy trên chính ảnh IR, không copy nguyên box từ RGB (4.4-1, 4.4-5); type=bag theo hình dạng"
+S02_ir,IR_sim,"Ảnh một kênh làm mất màu áo và dây đai, nhưng vẫn thấy không có dây vắt qua người",seatbelt,not_worn vì trên chính ảnh IR thấy rõ không có dây; SVIRO không ai thắt dây nên không ghi worn_*
+D01,real_IR,"Vùng mắt phải tối hoặc bị che, không xác định được mắt và có đeo kính hay không",eye_right; glasses; face13,"eye_right=unknown, glasses=unknown; 4 điểm mắt phải bật cờ occluded vì đoán chắc được vị trí (4.6)"
 D02,real_IR,Kính trong phản xạ đèn NIR che vùng mắt; nửa mặt phải ra ngoài khung hình,eye_left; eye_right; face13,"cả hai mắt ghi unknown, không ghi closed; 2 điểm mắt trái (upper, lower) occluded, 4 điểm mắt phải và mouth_right outside"
-D03,real_IR,Kính phản xạ và phần lớn điểm mặt không định vị được trên ảnh NIR,eye_left; eye_right; face13,cả hai mắt ghi unknown; 12/13 điểm face13 bật cờ outside thay vì đặt đoán
+D03,real_IR,"Kính phản xạ che vùng mắt, vùng miệng không rõ; không đoán được vị trí phần lớn điểm mặt",eye_left; eye_right; face13,"cả hai mắt ghi unknown; 12/13 điểm face13 bật cờ outside vì không đoán được vị trí (4.6), không đặt điểm cho đủ"
 D04,real_IR,"Hai tay nằm ở vùng tối xa đèn NIR, không thấy rõ có chạm vô lăng không",on_wheel,"on_wheel=unknown cho cả hai tay, không ghi no"
 D04,real_IR,Tài xế quay đầu nhìn gương giữa nên mắt phải khuất khỏi tầm camera NIR; khoé miệng phải bị che,eye_right; face13,"eye_right=unknown, eye_left giữ open; 4 điểm mắt phải bật cờ outside, mouth_right occluded, không đặt đoán"
 D06,real_IR,"Dây an toàn trùng độ sáng với áo trên ảnh NIR, không phân biệt được",seatbelt,"seatbelt=unknown, không đoán worn_correct"
