@@ -1,109 +1,109 @@
 ﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
-D01.png,face,eye_left,khác giá trị (IoU=0.75),open,unknown,,,
-D01.png,face,glasses,khác giá trị (IoU=0.75),unknown,clear,,,
-D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,,,
-D01.png,face13,right_eye_outer.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,,,
-D01.png,face13,right_eye_inner.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,,,
-D01.png,face13,right_eye_upper.outside,khác cờ,0,1,,,
-D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,,,
-D01.png,face13,right_eye_lower.outside,khác cờ,0,1,,,
-D02.png,face13,left_eye_outer.occluded,khác cờ,0,1,,,
-D02.png,face13,left_eye_inner.occluded,khác cờ,0,1,,,
-D02.png,face13,right_eye_outer.occluded,khác cờ,0,1,,,
-D02.png,face13,right_eye_outer.outside,khác cờ,1,0,,,
-D02.png,face13,right_eye_inner.occluded,khác cờ,0,1,,,
-D02.png,face13,right_eye_inner.outside,khác cờ,1,0,,,
-D02.png,face13,right_eye_upper.occluded,khác cờ,0,1,,,
-D02.png,face13,right_eye_upper.outside,khác cờ,1,0,,,
-D02.png,face13,right_eye_lower.occluded,khác cờ,0,1,,,
-D02.png,face13,right_eye_lower.outside,khác cờ,1,0,,,
-D02.png,face13,mouth_right.outside,khác cờ,1,0,,,
-D03.png,face,gaze_zone,khác giá trị (IoU=0.91),other,road,,,
-D03.png,face13,left_eye_outer.occluded,khác cờ,0,1,,,
-D03.png,face13,left_eye_outer.outside,khác cờ,1,0,,,
-D03.png,face13,left_eye_inner.occluded,khác cờ,0,1,,,
-D03.png,face13,left_eye_inner.outside,khác cờ,1,0,,,
-D03.png,face13,left_eye_upper.occluded,khác cờ,0,1,,,
-D03.png,face13,left_eye_upper.outside,khác cờ,1,0,,,
-D03.png,face13,left_eye_lower.occluded,khác cờ,0,1,,,
-D03.png,face13,left_eye_lower.outside,khác cờ,1,0,,,
-D03.png,face13,right_eye_outer.occluded,khác cờ,0,1,,,
-D03.png,face13,right_eye_outer.outside,khác cờ,1,0,,,
-D03.png,face13,right_eye_inner.occluded,khác cờ,0,1,,,
-D03.png,face13,right_eye_inner.outside,khác cờ,1,0,,,
-D03.png,face13,right_eye_upper.occluded,khác cờ,0,1,,,
-D03.png,face13,right_eye_upper.outside,khác cờ,1,0,,,
-D03.png,face13,right_eye_lower.occluded,khác cờ,0,1,,,
-D03.png,face13,right_eye_lower.outside,khác cờ,1,0,,,
-D03.png,face13,mouth_left.outside,khác cờ,1,0,,,
-D03.png,face13,mouth_right.outside,khác cờ,1,0,,,
-D03.png,face13,lip_upper.outside,khác cờ,1,0,,,
-D03.png,face13,lip_lower.outside,khác cờ,1,0,,,
-D04.png,hand,on_wheel,khác giá trị (IoU=0.87),unknown,no,,,
-D04.png,face,eye_left,khác giá trị (IoU=0.86),open,unknown,,,
+D01.png,face,eye_left,khác giá trị (IoU=0.75),open,unknown,,4.5,"XEM ẢNH: thấy khe mắt trái mở → open; thấy rõ hai mí khép → closed; bị che, phản xạ hoặc không phân biệt được → unknown (4.4-1)."
+D01.png,face,glasses,khác giá trị (IoU=0.75),unknown,clear,,4.5,XEM ẢNH: nhìn xuyên được tròng kính → clear (Minh); không nhìn rõ vùng mắt → unknown (mình). Không chắc thì giữ unknown
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_outer.outside,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_inner.outside,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_upper.outside,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D01.png,face13,right_eye_lower.outside,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,left_eye_outer.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm left_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,left_eye_inner.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm left_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_outer.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_outer.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_inner.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_inner.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_upper.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_upper.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_lower.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,right_eye_lower.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D02.png,face13,mouth_right.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm mouth_right: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face,gaze_zone,khác giá trị (IoU=0.91),other,road,,4.5,XEM ẢNH: hướng mắt và đầu chắc chắn chỉ vào road → chọn giá trị đó; không chắc → other và ghi lý do vào ghi chú
+D03.png,face13,left_eye_outer.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm left_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_outer.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm left_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_inner.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm left_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_inner.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm left_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_upper.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm left_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_upper.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm left_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_lower.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm left_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,left_eye_lower.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm left_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_outer.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_outer.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_inner.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_inner.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_upper.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_upper.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_lower.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,right_eye_lower.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,mouth_left.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm mouth_left: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,mouth_right.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm mouth_right: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,lip_upper.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm lip_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D03.png,face13,lip_lower.outside,khác cờ,1,0,,4.6,XEM ẢNH: điểm lip_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D04.png,hand,on_wheel,khác giá trị (IoU=0.87),unknown,no,,4.7,XEM ẢNH: thấy rõ tay chạm vô lăng → yes; thấy rõ tay không chạm → no; không thấy rõ → unknown. Tay không trên vô lăng là bình thường vì xe tự lái
+D04.png,face,eye_left,khác giá trị (IoU=0.86),open,unknown,,4.5,"XEM ẢNH: thấy khe mắt trái mở → open; thấy rõ hai mí khép → closed; bị che, phản xạ hoặc không phân biệt được → unknown (4.4-1). Bản của Minh ghi unknown nhưng không có cờ điểm mắt nào (cabin_check WARN), nên nếu chọn peer thì Minh phải bật cờ occluded."
 D04.png,face,eye_right,khác giá trị (IoU=0.86),unknown,open,mine,"4.4-1, 4.5","Giữ eye_right = unknown. Bản của Minh ghi open nhưng cả 4 điểm mắt phải bị che, nên Minh đổi thành unknown"
-D04.png,face,gaze_zone,khác giá trị (IoU=0.86),mirror_c,other,,,
-D04.png,hand,on_wheel,khác giá trị (IoU=0.94),unknown,no,,,
-D04.png,face13,right_eye_outer.occluded,khác cờ,0,1,,,
-D04.png,face13,right_eye_inner.occluded,khác cờ,0,1,,,
-D04.png,face13,right_eye_upper.occluded,khác cờ,0,1,,,
-D04.png,face13,right_eye_lower.occluded,khác cờ,0,1,,,
-D04.png,face13,mouth_right.occluded,khác cờ,1,0,,,
-D05.png,hand,on_wheel,khác giá trị (IoU=0.65),no,unknown,,,
-D05.png,face,eye_left,khác giá trị (IoU=0.80),open,unknown,,,
-D05.png,face,eye_right,khác giá trị (IoU=0.80),open,unknown,,,
-D05.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.39,,,,
-D05.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-D06.png,person,seatbelt,khác giá trị (IoU=0.59),unknown,worn_correct,,,
-D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D04.png,face,gaze_zone,khác giá trị (IoU=0.86),mirror_c,other,,4.5,XEM ẢNH: hướng mắt và đầu chắc chắn chỉ vào mirror_c → chọn giá trị đó; không chắc → other và ghi lý do vào ghi chú
+D04.png,hand,on_wheel,khác giá trị (IoU=0.94),unknown,no,,4.7,XEM ẢNH: thấy rõ tay chạm vô lăng → yes; thấy rõ tay không chạm → no; không thấy rõ → unknown. Tay không trên vô lăng là bình thường vì xe tự lái
+D04.png,face13,right_eye_outer.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_outer: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D04.png,face13,right_eye_inner.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_inner: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D04.png,face13,right_eye_upper.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_upper: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D04.png,face13,right_eye_lower.occluded,khác cờ,0,1,,4.6,XEM ẢNH: điểm right_eye_lower: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,,4.6,XEM ẢNH: điểm mouth_right: thấy rõ → không bật cờ; bị che nhưng đoán chắc vị trí → occluded; không đoán được vị trí → outside. Không đặt điểm cho đủ
+D05.png,hand,on_wheel,khác giá trị (IoU=0.65),no,unknown,,4.7,XEM ẢNH: thấy rõ tay chạm vô lăng → yes; thấy rõ tay không chạm → no; không thấy rõ → unknown. Tay không trên vô lăng là bình thường vì xe tự lái
+D05.png,face,eye_left,khác giá trị (IoU=0.80),open,unknown,,4.5,"XEM ẢNH: thấy khe mắt trái mở → open; thấy rõ hai mí khép → closed; bị che, phản xạ hoặc không phân biệt được → unknown (4.4-1). Bản của Minh ghi unknown nhưng không có cờ điểm mắt nào (cabin_check WARN), nên nếu chọn peer thì Minh phải bật cờ occluded."
+D05.png,face,eye_right,khác giá trị (IoU=0.80),open,unknown,,4.5,"XEM ẢNH: thấy khe mắt phải mở → open; thấy rõ hai mí khép → closed; bị che, phản xạ hoặc không phân biệt được → unknown (4.4-1). Bản của Minh ghi unknown nhưng không có cờ điểm mắt nào (cabin_check WARN), nên nếu chọn peer thì Minh phải bật cờ occluded."
+D05.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.39,,,"4.7, 4.4-5","XEM ẢNH: hai box điện thoại lệch nhau (IoU 0.39). Box đúng phải ôm cả chiếc máy kể cả phần ngón tay che, sát mép. Giữ box sát hơn, người kia sửa box"
+D05.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.7, 4.4-5","XEM ẢNH: hai box điện thoại lệch nhau (IoU 0.39). Box đúng phải ôm cả chiếc máy kể cả phần ngón tay che, sát mép. Giữ box sát hơn, người kia sửa box"
+D06.png,person,seatbelt,khác giá trị (IoU=0.59),unknown,worn_correct,,4.7,"XEM ẢNH: thấy dải chéo từ vai xuống hông phía đối diện → worn_correct (Minh); tối, bị che hoặc không phân biệt được với áo → unknown (mình). Không đoán"
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.2, 4.7","XEM ẢNH: Minh có thêm một box tay. Nếu thấy được bàn tay đó (kể cả tay hành khách, whose=passenger) thì mình thêm box; nếu không thấy thì Minh xóa"
 S01_rgb.png,frame_meta,light,khác giá trị,unknown,night,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S02_ir.png,infant_seat,seat,khác giá trị (IoU=0.98),rear_left,rear_right,,,
-S02_ir.png,person,seat,khác giá trị (IoU=0.99),rear_right,rear_left,,,
-S02_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_ir.png,infant_seat,seat,khác giá trị (IoU=0.98),rear_left,rear_right,peer,4.4-3,"Sửa infant_seat thành rear_right: box nằm bên trái ảnh, mà camera nhìn về sau nên trái ảnh là rear_right. Sửa trên cả S02_rgb và S02_ir, export lại export_final_v2.zip"
+S02_ir.png,person,seat,khác giá trị (IoU=0.99),rear_right,rear_left,peer,4.4-3,"Sửa person thành rear_left: box nằm bên phải ảnh, mà camera nhìn về sau nên trái ảnh là rear_right. Sửa trên cả S02_rgb và S02_ir, export lại export_final_v2.zip"
+S02_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.2, 4.5",XEM ẢNH: người lớn trong OMS cần box face kèm person. Nếu thấy mặt (thấy mắt hoặc mũi) thì mình thêm box face; nếu không thấy thì Minh xóa
 S02_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S02_rgb.png,infant_seat,seat,khác giá trị (IoU=0.93),rear_left,rear_right,,,
-S02_rgb.png,person,seat,khác giá trị (IoU=0.93),rear_right,rear_left,,,
-S02_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.08,,,,
-S03_ir.png,object,type,khác giá trị (IoU=0.75),bag,other,,,
-S03_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S03_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_rgb.png,infant_seat,seat,khác giá trị (IoU=0.93),rear_left,rear_right,peer,4.4-3,"Sửa infant_seat thành rear_right: box nằm bên trái ảnh, mà camera nhìn về sau nên trái ảnh là rear_right. Sửa trên cả S02_rgb và S02_ir, export lại export_final_v2.zip"
+S02_rgb.png,person,seat,khác giá trị (IoU=0.93),rear_right,rear_left,peer,4.4-3,"Sửa person thành rear_left: box nằm bên phải ảnh, mà camera nhìn về sau nên trái ảnh là rear_right. Sửa trên cả S02_rgb và S02_ir, export lại export_final_v2.zip"
+S02_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.2, 4.5",XEM ẢNH: người lớn trong OMS cần box face kèm person. Nếu thấy mặt (thấy mắt hoặc mũi) thì mình thêm box face; nếu không thấy thì Minh xóa
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.08,,,"4.1, 4.8","XEM ẢNH: vật ở rear_right (trái ảnh): mình gán object type=box, Minh gán object type=cup ở vị trí lệch vào giữa. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S03_ir.png,object,type,khác giá trị (IoU=0.75),bag,other,,4.8,"XEM ẢNH: vật ở rear_middle: mình ghi bag, Minh ghi other. Có hình dạng túi rõ → bag; không chắc → other"
+S03_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán infant_seat, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: vật ở rear_right (trái ảnh): mình gán object type=box, Minh gán object type=cup ở vị trí lệch vào giữa. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S03_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán infant_seat, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4). Nếu là child_seat thì Minh vẫn phải đổi occupied=yes thành no hoặc unknown (4.1 không có yes)."
 S03_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.08,,,,
-S03_rgb.png,object,type,khác giá trị (IoU=0.73),bag,other,,,
-S03_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S03_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S04_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.08,,,"4.1, 4.8","XEM ẢNH: vật ở rear_right (trái ảnh): mình gán object type=box, Minh gán object type=cup ở vị trí lệch vào giữa. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S03_rgb.png,object,type,khác giá trị (IoU=0.73),bag,other,,4.8,"XEM ẢNH: vật ở rear_middle: mình ghi bag, Minh ghi other. Có hình dạng túi rõ → bag; không chắc → other"
+S03_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán infant_seat, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: vật ở rear_right (trái ảnh): mình gán object type=box, Minh gán object type=cup ở vị trí lệch vào giữa. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S03_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán infant_seat, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4). Nếu là child_seat thì Minh vẫn phải đổi occupied=yes thành no hoặc unknown (4.1 không có yes)."
+S04_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.2, 4.5",XEM ẢNH: người lớn trong OMS cần box face kèm person. Nếu thấy mặt (thấy mắt hoặc mũi) thì mình thêm box face; nếu không thấy thì Minh xóa
 S04_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S04_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S05_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S05_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S05_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S05_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.2, 4.5",XEM ẢNH: người lớn trong OMS cần box face kèm person. Nếu thấy mặt (thấy mắt hoặc mũi) thì mình thêm box face; nếu không thấy thì Minh xóa
+S05_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: rear_left (phải ảnh): mình gán object type=cup, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S05_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_right (trái ảnh): mình gán infant_seat, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S05_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: Minh có 2 child_seat (occupied=yes) ở rear_right và rear_left. Ở rear_right (trái ảnh) mình gán infant_seat; ở rear_left (phải ảnh) mình gán object type=cup. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4). Nếu là child_seat thì Minh vẫn phải đổi occupied=yes thành no hoặc unknown (4.1 không có yes)."
+S05_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: Minh có 2 child_seat (occupied=yes) ở rear_right và rear_left. Ở rear_right (trái ảnh) mình gán infant_seat; ở rear_left (phải ảnh) mình gán object type=cup. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4). Nếu là child_seat thì Minh vẫn phải đổi occupied=yes thành no hoặc unknown (4.1 không có yes)."
 S05_rgb.png,frame_meta,light,khác giá trị,unknown,night,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S05_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S05_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S05_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S05_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S06_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S06_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S05_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: rear_left (phải ảnh): mình gán object type=cup, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S05_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_right (trái ảnh): mình gán infant_seat, Minh gán child_seat với occupied=yes. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S05_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: Minh có 2 child_seat (occupied=yes) ở rear_right và rear_left. Ở rear_right (trái ảnh) mình gán infant_seat; ở rear_left (phải ảnh) mình gán object type=cup. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4). Nếu là child_seat thì Minh vẫn phải đổi occupied=yes thành no hoặc unknown (4.1 không có yes)."
+S05_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: Minh có 2 child_seat (occupied=yes) ở rear_right và rear_left. Ở rear_right (trái ảnh) mình gán infant_seat; ở rear_left (phải ảnh) mình gán object type=cup. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4). Nếu là child_seat thì Minh vẫn phải đổi occupied=yes thành no hoặc unknown (4.1 không có yes)."
+S06_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán child_seat, Minh gán infant_seat facing=rear. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S06_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán child_seat, Minh gán infant_seat facing=rear. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
 S06_rgb.png,frame_meta,light,khác giá trị,unknown,night,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S06_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S06_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S07_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S07_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán child_seat, Minh gán infant_seat facing=rear. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S06_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: ghế ở rear_left (phải ảnh): mình gán child_seat, Minh gán infant_seat facing=rear. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S07_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: mình gán child_seat ở rear_right (trái ảnh), Minh gán infant_seat ở rear_middle (giữa ảnh); kiểm xem ghế thực sự nằm ở chỗ nào và là loại nào. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S07_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: mình gán child_seat ở rear_right (trái ảnh), Minh gán infant_seat ở rear_middle (giữa ảnh); kiểm xem ghế thực sự nằm ở chỗ nào và là loại nào. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
 S07_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,3 (SVIRO: ảnh dựng nên light = unknown),Giữ light = unknown. Minh sửa light trên ảnh S##_rgb thành unknown
-S07_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S07_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S08_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S08_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S08_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S08_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S08_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S08_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
-S08_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
-S08_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S07_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: mình gán child_seat ở rear_right (trái ảnh), Minh gán infant_seat ở rear_middle (giữa ảnh); kiểm xem ghế thực sự nằm ở chỗ nào và là loại nào. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S07_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: mình gán child_seat ở rear_right (trái ảnh), Minh gán infant_seat ở rear_middle (giữa ảnh); kiểm xem ghế thực sự nằm ở chỗ nào và là loại nào. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: mình có 2 object: type=box ở rear_right (trái ảnh) và type=bag ở rear_middle (giữa ảnh). Ở hai chỗ đó Minh gán infant_seat và child_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: mình có 2 object: type=box ở rear_right (trái ảnh) và type=bag ở rear_middle (giữa ảnh). Ở hai chỗ đó Minh gán infant_seat và child_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: rear_right (trái ảnh): mình gán object type=box, Minh gán infant_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: rear_middle (giữa ảnh): mình gán object type=bag, Minh gán child_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: mình có 2 object: type=box ở rear_right (trái ảnh) và type=bag ở rear_middle (giữa ảnh). Ở hai chỗ đó Minh gán infant_seat và child_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,"4.1, 4.8","XEM ẢNH: mình có 2 object: type=box ở rear_right (trái ảnh) và type=bag ở rear_middle (giữa ảnh). Ở hai chỗ đó Minh gán infant_seat và child_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: rear_middle (giữa ảnh): mình gán object type=bag, Minh gán child_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
+S08_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,"4.1, 4.8","XEM ẢNH: rear_right (trái ảnh): mình gán object type=box, Minh gán infant_seat. Ghế em bé dạng nôi xách → infant_seat; ghế trẻ em có lưng tựa → child_seat; vật mang theo → object. Nhận theo hình dạng, không theo màu (4.4-4)."
